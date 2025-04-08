@@ -10,6 +10,10 @@ This project performs sentiment analysis on news articles related to US tariffs 
 - Visualizes word embeddings using t-SNE
 - Saves results and visualizations to output directory
 
+## Web Application
+
+Check out the web version of this project at [News Friend](https://news-friend.vercel.app/)!
+
 ## Requirements
 
 - Python 3.8+
@@ -52,6 +56,7 @@ python sentiment_analysis.py
 - `--query`: Search query (default: "US tariffs")
 - `--days`: Number of days to look back (default: 7)
 - `--output-dir`: Output directory for results (default: "output")
+- `--picture-dir`: Directory for saving visualizations (default: "picture")
 
 Example with custom parameters:
 ```bash
@@ -71,6 +76,7 @@ The script generates the following outputs in the specified output directory:
 - `requirements.txt`: List of required Python packages
 - `.env`: Configuration file for API keys (not included in repository)
 - `output/`: Directory containing generated results
+- `picture/`: Directory containing visualizations
 
 ## Dependencies
 
@@ -81,6 +87,10 @@ The script generates the following outputs in the specified output directory:
 - scikit-learn: For t-SNE visualization
 - matplotlib & seaborn: For data visualization
 - python-dotenv: For loading environment variables
+
+## Support
+
+If you find this project useful, consider supporting me by [buying me a coffee](https://ko-fi.com/liviaellen)!
 
 ## License
 
